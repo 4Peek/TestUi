@@ -1,18 +1,18 @@
--- Gui to Lua
--- Version: 3.2
 
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local header = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
 local content = Instance.new("ImageLabel")
+local PetSimX = Instance.new("TextButton")
+local JailBreak = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local CBRO = Instance.new("TextButton")
 
---Properties:
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.Enabled = true
+ScreenGui.Parent = game.Workspace
+ScreenGui.Enabled = false
 
 main.Name = "main"
 main.Parent = ScreenGui
@@ -59,3 +59,64 @@ content.ImageColor3 = Color3.fromRGB(59, 59, 59)
 content.ScaleType = Enum.ScaleType.Slice
 content.SliceCenter = Rect.new(100, 100, 100, 100)
 content.SliceScale = 0.120
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = content
+PetSimX.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PetSimX.Position = UDim2.new(0.0303426962, 0, 0.0614515245, 0)
+PetSimX.Size = UDim2.new(0, 200, 0, 50)
+PetSimX.Font = Enum.Font.SourceSansBold
+PetSimX.Text = "PetSimX"
+PetSimX.TextColor3 = Color3.fromRGB(188, 0, 3)
+PetSimX.TextScaled = true
+PetSimX.TextSize = 14.000
+PetSimX.TextWrapped = true
+PetSimX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/MOKURO-HUB/main/PetSimulatorX.lua'))()
+end)
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = content
+JailBreak.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+JailBreak.Position = UDim2.new(0.547411978, 0, 0.0614515245, 0)
+JailBreak.Size = UDim2.new(0, 200, 0, 50)
+JailBreak.Font = Enum.Font.SourceSansBold
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(188, 0, 3)
+JailBreak.TextScaled = true
+JailBreak.TextSize = 14.000
+JailBreak.TextWrapped = true
+JailBreak.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = content
+Arsenal.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Arsenal.Position = UDim2.new(0.547411978, 0, 0.390565455, 0)
+Arsenal.Size = UDim2.new(0, 200, 0, 50)
+Arsenal.Font = Enum.Font.SourceSansBold
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(188, 0, 3)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end)
+
+
+CBRO.Name = "CB-RO"
+CBRO.Parent = content
+CBRO.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+CBRO.Position = UDim2.new(0.0303426962, 0, 0.390565455, 0)
+CBRO.Size = UDim2.new(0, 200, 0, 50)
+CBRO.Font = Enum.Font.SourceSansBold
+CBRO.Text = "CB-RO"
+CBRO.TextColor3 = Color3.fromRGB(188, 0, 3)
+CBRO.TextScaled = true
+CBRO.TextSize = 14.000
+CBRO.TextWrapped = true
+CBRO.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
+end)
