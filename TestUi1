@@ -12,6 +12,7 @@ local content = Instance.new("ImageLabel")
 --Properties:
 
 ScreenGui.Parent = game.CoreGui
+ScreenGui.Enabled = true
 
 main.Name = "main"
 main.Parent = ScreenGui
