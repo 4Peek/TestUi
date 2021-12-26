@@ -45,6 +45,24 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
+exit.Name = "exit"
+exit.Parent = header
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 1.000
+exit.Position = UDim2.new(0.890076399, 0, 0, 0)
+exit.Size = UDim2.new(0, 45, 0, 48)
+exit.Font = Enum.Font.SourceSans
+exit.Text = "X"
+exit.TextColor3 = Color3.fromRGB(176, 0, 2)
+exit.TextScaled = true
+exit.TextSize = 14.000
+exit.TextStrokeColor3 = Color3.fromRGB(176, 0, 2)
+exit.TextWrapped = true
+exit.MouseButton1Click:Connect(function()
+	ScreenGui.Parent = none
+end)
+
+
 content.Name = "content"
 content.Parent = main
 content.AnchorPoint = Vector2.new(0.5, 0.5)
