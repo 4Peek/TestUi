@@ -104,7 +104,7 @@ JailBreak.TextScaled = true
 JailBreak.TextSize = 14.000
 JailBreak.TextWrapped = true
 JailBreak.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
 end)
 
 Arsenal.Name = "Arsenal"
