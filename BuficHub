@@ -103,7 +103,7 @@ JailBreak.TextScaled = true
 JailBreak.TextSize = 14.000
 JailBreak.TextWrapped = true
 JailBreak.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 end)
 
 Arsenal.Name = "Arsenal"
