@@ -11,6 +11,7 @@ local CBRO = Instance.new("TextButton")
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.Enable = true
+
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
