@@ -11,11 +11,10 @@ local content = Instance.new("ImageLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.Workspace
-ScreenGui.Enabled = false
+ScreenGui.Parent = game.CoreGui
 
 main.Name = "main"
-main.Parent = game.CoreGui
+main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 main.Position = UDim2.new(0.559200048, 0, 0.32138443, 0)
 main.Size = UDim2.new(0, 500, 0, 289)
