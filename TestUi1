@@ -11,8 +11,8 @@ local Arsenal = Instance.new("TextButton")
 local CBRO = Instance.new("TextButton")
 
 
-ScreenGui.Parent = game.Workspace
-ScreenGui.Enabled = false
+ScreenGui.Parent = game.CoreGui
+ScreenGui.Enabled = true
 
 main.Name = "main"
 main.Parent = ScreenGui
