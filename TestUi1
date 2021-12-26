@@ -12,7 +12,6 @@ local CBRO = Instance.new("TextButton")
 
 
 ScreenGui.Parent = game.CoreGui
-ScreenGui.Enabled = true
 
 main.Name = "main"
 main.Parent = ScreenGui
