@@ -1,4 +1,5 @@
 
+
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local header = Instance.new("ImageLabel")
@@ -9,8 +10,9 @@ local JailBreak = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local CBRO = Instance.new("TextButton")
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.Enable = true
+
+ScreenGui.Parent = game.Workspace
+ScreenGui.Enabled = true
 
 main.Name = "main"
 main.Parent = ScreenGui
